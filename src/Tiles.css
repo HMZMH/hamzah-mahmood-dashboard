@@ -1,0 +1,19 @@
+.tile-content{
+    padding: 1vw;
+    text-align: center;
+}
+
+.media-player{
+    border: 1px darkcyan solid;
+    border-radius: 9px/8px;
+    background-image: linear-gradient(to bottom right, black, darkcyan);
+}
+
+.playlist-input{
+    border-radius: 9px/8px;
+    margin-top: 0.5vh;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    background-image: linear-gradient(to top left, darkcyan, white);
+    border: black 1px solid;
+}
