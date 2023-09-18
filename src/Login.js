@@ -10,7 +10,6 @@ function Login() {
     const provider = new GoogleAuthProvider();
     try {
       const result = await signInWithPopup(auth, provider);
-      const user = result.user;
     } catch (error) {
       setError(error.message);
     }
